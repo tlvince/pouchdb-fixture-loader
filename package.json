@@ -1,0 +1,47 @@
+{
+  "name": "pouchdb-fixture-loader",
+  "version": "0.0.0-development",
+  "description": "Deploy CouchDB/PouchDB fixtures from directories",
+  "main": "index.js",
+  "scripts": {
+    "commitmsg": "validate-commit-msg",
+    "prepush": "npm test",
+    "test": "standard",
+    "semantic-release": "semantic-release",
+    "travis-deploy-once": "travis-deploy-once"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tlvince/pouchdb-fixture-loader.git"
+  },
+  "keywords": [
+    "fixture",
+    "loader",
+    "couchdb",
+    "pouchdb",
+    "couchapp"
+  ],
+  "author": "Tom Vincent <git@tlvince.com> (https://tlvince.com)",
+  "engines": {
+    "npm": ">=5.3",
+    "node": ">=8"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/pouchdb-fixture-loader/issues"
+  },
+  "homepage": "https://github.com/tlvince/pouchdb-fixture-loader#readme",
+  "dependencies": {
+    "couchdb-compile": "1.10.0"
+  },
+  "devDependencies": {
+    "husky": "0.14.3",
+    "standard": "11.0.0",
+    "validate-commit-msg": "2.14.0",
+    "semantic-release": "^15.1.7",
+    "travis-deploy-once": "^4.4.1"
+  },
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT"
+}
